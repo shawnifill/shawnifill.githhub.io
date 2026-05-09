@@ -28,4 +28,4 @@ No linter, formatter, or test runner. Verify changes by exercising:
 
 ## Deployment
 
-Pushes to `main` on the `shawnifill/shawnifill` GitHub remote publish via GitHub Pages.
+`main` lives on `shawnifill/shawnifill.github.io`. Pushes publish via GitHub Pages.
