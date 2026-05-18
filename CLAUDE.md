@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-Static personal site for Shawn Ifill — a single-page resume rendered from `index.html`, `styles.css`, `script.js`. No build step, no package manager, no test suite, zero runtime dependencies. Deploys to GitHub Pages from the `shawnifill/shawnifill` remote.
+Static personal site for Shawn Ifill — a single-page resume rendered from `index.html`, `styles.css`, `script.js`. No build step, no package manager, no test suite, zero runtime dependencies. Deploys to GitHub Pages from the `shawnifill/resume` remote.
 
 The content here mirrors `../resume.md` in the parent `Resume/` workspace — that file is the source of truth for resume copy. The framing rules in `../CLAUDE.md` (Shardeum = contributor, Game of Silks = key contributor, MightyText omits election app, PodClips omits NLP, AI tooling unnamed, no port numbers) apply to this site too.
 
