@@ -127,6 +127,65 @@
 
       <ol class="timeline">
 
+        <li class="job-card" data-accent="cyan">
+          <div class="job-meta">
+            <span class="job-dates">Jan 2018 — Present</span>
+            <span class="job-pill">Side Project</span>
+          </div>
+          <h3 class="job-title">
+            Senior Software Engineer
+            <span class="job-company">PodClips</span>
+          </h3>
+          <p class="job-lede">
+            Built and maintained a full-stack podcast clip discovery and
+            sharing platform — from a React Native mobile app to a
+            multi-service Node.js backend with an AI-powered transcription
+            pipeline.
+          </p>
+          <ul class="job-bullets">
+            <li>Developed the <strong>React Native mobile app</strong> (iOS &amp; Android) through 34+ release candidates (v1.12–v1.34) — Firebase, Amplitude, Intercom, Algolia search, Google Sign-In.</li>
+            <li>Built custom <strong>React Native native modules</strong> — forked audio track player and splash screen module, resolved via Metro&apos;s nodeModulesPaths from a local monorepo.</li>
+            <li>Architected a <strong>multi-service backend</strong> — REST API, transcription service, media proxy/caching, RSS scraper — coordinated via PM2 with a shared business-logic module.</li>
+            <li>Implemented a <strong>dual-provider AI transcription pipeline</strong> — self-hosted OpenAI Whisper (Docker on GCP, CUDA 11.6) and Google Cloud Speech with diarization, dispatched via Bull/Redis queues.</li>
+            <li>Indexed content across <strong>5 Algolia indexes</strong> (clips, topics, people, moments, episodes) with BigQuery streaming analytics.</li>
+            <li>Migrated <strong>MP3 storage to Google Cloud Storage</strong> with proxied streaming delivery — SendGrid, Firebase FCM, Twitter/Reddit/Facebook broadcast queues.</li>
+            <li>Used <strong>AI-augmented development workflows</strong> to accelerate feature iteration and debugging across mobile and backend.</li>
+            <li>Shipped iOS builds through 34+ consecutive release candidates — automated Xcode archive → IPA → App Store Connect upload via custom CLI.</li>
+          </ul>
+          <div class="chips">
+            <span>React Native</span><span>TypeScript</span><span>Node.js</span><span>Express</span><span>MySQL</span><span>Redis</span><span>GCP</span><span>OpenAI Whisper</span><span>Algolia</span><span>FFmpeg</span><span>Firebase</span><span>Docker</span>
+          </div>
+        </li>
+
+        <li class="job-card" data-accent="emerald">
+          <div class="job-meta">
+            <span class="job-dates">Nov 2011 — Present</span>
+            <span class="job-pill">Full-time → Part-time (Apr 2022)</span>
+          </div>
+          <h3 class="job-title">
+            Software Engineer
+            <span class="job-company">MightyText</span>
+          </h3>
+          <p class="job-lede">
+            Built and maintained a cross-platform SMS/messaging
+            synchronization platform enabling users to send and receive
+            Android text messages from any browser or desktop client.
+          </p>
+          <ul class="job-bullets">
+            <li>Built and maintained the <strong>Android companion app</strong> (v17.04, targetSdk 37) — SMS/MMS/RCS interception, FCM and PubNub v4 push relay, full migration of 12 JobIntentService workers to WorkManager for Android 15+ compatibility.</li>
+            <li>Developed and deployed <strong>Google App Engine backend services</strong> — 40+ servlet REST API through versions 100–421, FCM HTTP v1 migration, Memcache-backed sessions, background tickle queue at 500 req/s across up to 5,000 instances.</li>
+            <li>Created a <strong>shared Android library</strong> (v3.00) — SMS/MMS transactions, ApplicationNews dynamic content, reminder scheduling, shared UI; distributed via GitHub Packages.</li>
+            <li>Built the <strong>Electron desktop client</strong> and browser-based OAuth library for web integration.</li>
+            <li>Set up <strong>GCP observability</strong> — Cloud Monitoring, Cloud Logging, BigQuery analytics dashboards with a 90-day rolling billing window via scheduled collection scripts.</li>
+            <li>Upgraded the <strong>Java runtime from Java 8 to Java 17</strong> across App Engine — resolved Gradle conflicts and coordinated jar version alignment across multiple deployments.</li>
+            <li>Used <strong>AI-augmented development workflows</strong> to compress legacy modernization — AndroidX migration, PubNub 3.6 → 4.6.5, OkHttp 3.3.1 → 4.12.0 (TLS 1.3), Java 17 upgrade.</li>
+            <li>Shipped <strong>SimplyText</strong> — a white-label variant of the MightyText Android product built on the shared Android library.</li>
+          </ul>
+          <div class="chips">
+            <span>Java</span><span>Android SDK</span><span>App Engine</span><span>FCM</span><span>PubNub</span><span>Firebase</span><span>Node.js</span><span>Electron</span><span>Python</span><span>Gradle</span>
+          </div>
+        </li>
+
         <li class="job-card" data-accent="violet">
           <div class="job-meta">
             <span class="job-dates">Oct 2024 — Apr 2025</span>
@@ -183,65 +242,6 @@
           </ul>
           <div class="chips">
             <span>Solidity</span><span>Hardhat</span><span>TypeScript</span><span>Next.js</span><span>AWS Lambda</span><span>MySQL</span><span>ethers.js</span><span>viem</span><span>Moralis</span><span>Python</span><span>Blender</span><span>Stripe</span><span>DynamoDB</span>
-          </div>
-        </li>
-
-        <li class="job-card" data-accent="cyan">
-          <div class="job-meta">
-            <span class="job-dates">Jan 2018 — Present</span>
-            <span class="job-pill">Side Project</span>
-          </div>
-          <h3 class="job-title">
-            Senior Software Engineer
-            <span class="job-company">PodClips</span>
-          </h3>
-          <p class="job-lede">
-            Built and maintained a full-stack podcast clip discovery and
-            sharing platform — from a React Native mobile app to a
-            multi-service Node.js backend with an AI-powered transcription
-            pipeline.
-          </p>
-          <ul class="job-bullets">
-            <li>Developed the <strong>React Native mobile app</strong> (iOS &amp; Android) through 34+ release candidates (v1.12–v1.34) — Firebase, Amplitude, Intercom, Algolia search, Google Sign-In.</li>
-            <li>Built custom <strong>React Native native modules</strong> — forked audio track player and splash screen module, resolved via Metro&apos;s nodeModulesPaths from a local monorepo.</li>
-            <li>Architected a <strong>multi-service backend</strong> — REST API, transcription service, media proxy/caching, RSS scraper — coordinated via PM2 with a shared business-logic module.</li>
-            <li>Implemented a <strong>dual-provider AI transcription pipeline</strong> — self-hosted OpenAI Whisper (Docker on GCP, CUDA 11.6) and Google Cloud Speech with diarization, dispatched via Bull/Redis queues.</li>
-            <li>Indexed content across <strong>5 Algolia indexes</strong> (clips, topics, people, moments, episodes) with BigQuery streaming analytics.</li>
-            <li>Migrated <strong>MP3 storage to Google Cloud Storage</strong> with proxied streaming delivery — SendGrid, Firebase FCM, Twitter/Reddit/Facebook broadcast queues.</li>
-            <li>Used <strong>AI-augmented development workflows</strong> to accelerate feature iteration and debugging across mobile and backend.</li>
-            <li>Shipped iOS builds through 34+ consecutive release candidates — automated Xcode archive → IPA → App Store Connect upload via custom CLI.</li>
-          </ul>
-          <div class="chips">
-            <span>React Native</span><span>TypeScript</span><span>Node.js</span><span>Express</span><span>MySQL</span><span>Redis</span><span>GCP</span><span>OpenAI Whisper</span><span>Algolia</span><span>FFmpeg</span><span>Firebase</span><span>Docker</span>
-          </div>
-        </li>
-
-        <li class="job-card" data-accent="emerald">
-          <div class="job-meta">
-            <span class="job-dates">Nov 2011 — Present</span>
-            <span class="job-pill">Full-time → Part-time (Feb 2023)</span>
-          </div>
-          <h3 class="job-title">
-            Software Engineer
-            <span class="job-company">MightyText</span>
-          </h3>
-          <p class="job-lede">
-            Built and maintained a cross-platform SMS/messaging
-            synchronization platform enabling users to send and receive
-            Android text messages from any browser or desktop client.
-          </p>
-          <ul class="job-bullets">
-            <li>Built and maintained the <strong>Android companion app</strong> (v17.04, targetSdk 37) — SMS/MMS/RCS interception, FCM and PubNub v4 push relay, full migration of 12 JobIntentService workers to WorkManager for Android 15+ compatibility.</li>
-            <li>Developed and deployed <strong>Google App Engine backend services</strong> — 40+ servlet REST API through versions 100–421, FCM HTTP v1 migration, Memcache-backed sessions, background tickle queue at 500 req/s across up to 5,000 instances.</li>
-            <li>Created a <strong>shared Android library</strong> (v3.00) — SMS/MMS transactions, ApplicationNews dynamic content, reminder scheduling, shared UI; distributed via GitHub Packages.</li>
-            <li>Built the <strong>Electron desktop client</strong> and browser-based OAuth library for web integration.</li>
-            <li>Set up <strong>GCP observability</strong> — Cloud Monitoring, Cloud Logging, BigQuery analytics dashboards with a 90-day rolling billing window via scheduled collection scripts.</li>
-            <li>Upgraded the <strong>Java runtime from Java 8 to Java 17</strong> across App Engine — resolved Gradle conflicts and coordinated jar version alignment across multiple deployments.</li>
-            <li>Used <strong>AI-augmented development workflows</strong> to compress legacy modernization — AndroidX migration, PubNub 3.6 → 4.6.5, OkHttp 3.3.1 → 4.12.0 (TLS 1.3), Java 17 upgrade.</li>
-            <li>Shipped <strong>SimplyText</strong> — a white-label variant of the MightyText Android product built on the shared Android library.</li>
-          </ul>
-          <div class="chips">
-            <span>Java</span><span>Android SDK</span><span>App Engine</span><span>FCM</span><span>PubNub</span><span>Firebase</span><span>Node.js</span><span>Electron</span><span>Python</span><span>Gradle</span>
           </div>
         </li>
 
